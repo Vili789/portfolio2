@@ -9,7 +9,7 @@ insta = st.Page(
     "SeeWhoDoesntFollowYou/main.py", title="Insta")
 cards = st.Page("FlashcardAutomation/main.py", title="Cards")
 casino = st.Page(
-    "Casino/main.py.py", title="Casino")
+    "Casino/main.py", title="Casino")
 
 # Navigation links to main project pages
 pg = st.navigation(
