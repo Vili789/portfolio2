@@ -15,6 +15,5 @@ st.navigation(
             "Cards": [cards],
             "Casino": [casino],
         }
-    )
-pg.run()
+    ).run()
 
