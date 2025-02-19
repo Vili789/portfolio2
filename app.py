@@ -12,7 +12,7 @@ casino = st.Page(
     "Casino/main.py.py", title="Casino")
 
 # Navigation links to main project pages
-st.navigation(
+pg = st.navigation(
         {
             "Insta": [insta],
             "Cards": [cards],
@@ -20,3 +20,4 @@ st.navigation(
         }
     )
 
+pg.run()
